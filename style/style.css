@@ -1,0 +1,25 @@
+.wrap{
+	min-width: 600px;
+	width: 70%;
+	background-color: green;
+	overflow: hidden;
+	margin: auto;
+}
+
+.content, .navbar{
+	height: 400px;
+}
+.content{
+	float: left;
+	background-color: red;
+	width: 70%;
+}
+.navbar{
+	background-color: silver;
+	float: left;
+	width: 30%;
+}
+.navbar ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
